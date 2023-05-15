@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Initiative Tracker Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React-based application designed for tracking initiative in Tabletop Role-Playing Games (TTRPGs) and other similar systems. It provides a user-friendly interface to manage and monitor the order of turns during gameplay.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Initiative Tracking:** Easily track the initiative order of players, non-player characters (NPCs), and other entities in your TTRPG sessions.
+- **Turn Management:** Manage the current turn and easily advance to the next turn.
+- **Customizable Options:** Customize the initiative tracker to fit your specific game system's rules and mechanics.
+- **Quick Add:** Quickly add new characters to the initiative tracker during gameplay.
+- **Flexible Sorting:** Sort characters by initiative values, names, or any other criteria to suit your preferences.
+- **Responsive Design:** The application is responsive and works seamlessly on desktop and mobile devices, making it suitable for in-person or online gaming sessions.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To install and run the Initiative Tracker Application, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Make sure you have [Node.js](https://nodejs.org) installed on your machine.
+2. Clone this repository to your local machine using the following command:
 
-### `npm test`
+   ```bash
+   git clone https://github.com/your-username/initiative-tracker.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Navigate to the cloned directory:
 
-### `npm run build`
+   ```bash
+   cd initiative-tracker
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. Install the dependencies by running the following command:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```bash
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Start the application:
 
-### `npm run eject`
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Open your web browser and visit `http://localhost:3000` to access the Initiative Tracker Application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Upon accessing the application, you will be presented with the initiative tracker interface.
+3. Click add initiative and fill the relevant information.
+4. Use the sorting options to order the characters based on initiative or any other chosen criteria.
+5. The character with the highest initiative value should take their turn first. Click on the "Next Turn" button to advance to the next character in the initiative order.
+6. You can update initiative values, remove characters.
+8. Enjoy a seamless and intuitive experience while tracking initiative in your TTRPG sessions!
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contributing
 
-## Learn More
+Contributions are welcome! If you find any issues or have suggestions for improvement, please submit an issue or create a pull request in the [GitHub repository](https://github.com/your-username/initiative-tracker). Make sure to follow the existing coding style and provide clear documentation for any changes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This project is licensed under the [MIT License](LICENSE).
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The Initiative Tracker Application was inspired by the need for an efficient and user-friendly tool for tracking initiative in TTRPGs.
+- We would like to express our gratitude to all the contributors and open-source projects that have provided invaluable resources and inspiration.
